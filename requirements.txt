@@ -1,0 +1,16 @@
+# Основний фреймворк (фіксуємо версію, щоб уникнути несподіванок)
+crewai>=1.8.1
+# Додаємо підтримку інструментів (важливо для вашого AiderTool)
+crewai[tools,google-genai]
+
+# Робота з моделями та оточенням
+litellm
+# LangChain - pinned compatible versions
+langchain>=0.3.27,<1.0
+langchain-core>=0.3.83,<1.0
+langchain-community>=0.3.31,<0.4
+langchain-openai
+python-dotenv
+
+# Обробка конфігів (ви вже її використовуєте)
+PyYAML

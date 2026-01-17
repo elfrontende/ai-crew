@@ -1,0 +1,9 @@
+framework: React 18
+bundler: Vite
+language: TypeScript
+styling: Tailwind CSS + shadcn/ui
+state_management: Zustand
+testing: Vitest + React Testing Library
+package_manager: npm
+project_root: .
+agent_root: .agent
